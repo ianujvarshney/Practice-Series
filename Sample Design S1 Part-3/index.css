@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+.menu-right{
+    text-align: right;
+}
+.navbar{
+    background-color: white;
+    font-family: sans-serif;
+    padding:20px;
+    font-size: 15px;
+    font-weight:bold;              
+    text-transform: uppercase;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin:20px;
+}
+.navbar img{
+    height:40px;
+    float:left;
+    margin-right:20px;
+}
+.menu-right span{
+    font-size:20px;
+    cursor: pointer;
+    margin:0 20px;
+    display:none;
+}
+
+@media only screen and (max-width:700px){
+    .menu-right span{
+        display:block;
+        margin-top: 12%;
+        text-align: center;
+    }
+    ul li{
+        display: block;
+        text-align: center;
+    }
+    ul{
+        display:none;
+    }
+    .navbar img{
+        margin:10% 30%;
+    }
+   
+}
+
