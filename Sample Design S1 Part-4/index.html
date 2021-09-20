@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Sample Project S1 Part-4</title>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="logo"/>
+        <nav>
+            <span onClick="myFunction()">&#9776;</span>
+            <ul id="open">
+                <li>Home</li>
+                <li>Products</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>            
+        </nav>
+        <div class="t-1">
+            <h1>Holiday Special Travel Packages</h1>
+            <a href="#" class="button">Explore Now</a>
+        </div>
+            <img src="wave-img.png" alt="Wave" class="bottom"/>
+    </div>
+</body>
+    <script>
+        function myFunction(){
+            var x = document.getElementById("open");
+            if(x.style.display == "block")
+                x.style.display = "none";
+            else
+                x.style.display = "block";
+        }
+    </script>
+</html>
